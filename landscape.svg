@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" role="img" aria-labelledby="title desc">
+<title id="title">银杏与桂林山水</title><desc id="desc">金色银杏叶、层叠的桂林峰林、白墙灰瓦古村与一条蜿蜒的河流。旅行主题插画，并非景点实拍。</desc>
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e8e7d5"/><stop offset="1" stop-color="#f7e8c4"/></linearGradient>
+<linearGradient id="water" x2="0" y2="1"><stop stop-color="#abc0af"/><stop offset="1" stop-color="#d5d7b6"/></linearGradient>
+<radialGradient id="sun"><stop stop-color="#f3d99c"/><stop offset="1" stop-color="#edc57b"/></radialGradient>
+<filter id="texture"><feTurbulence type="fractalNoise" baseFrequency=".5" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+<g id="leaf"><path d="M0 45C-35 38-51 11-40-14-21-21-8-10 0 5 8-10 21-21 40-14 51 11 35 38 0 45Z" fill="currentColor"/><path d="M0 62V9M0 44-27-8M0 44 27-8M0 44-12-12M0 44 12-12" fill="none" stroke="#9f7b39" stroke-opacity=".35" stroke-width="1.4"/></g>
+</defs>
+<g filter="url(#texture)">
+<path fill="url(#sky)" d="M0 0h1100v700H0z"/>
+<circle cx="820" cy="180" r="67" fill="url(#sun)"/>
+<path d="M0 365Q55 360 80 286t35-59q32-5 55 72t56-56 50-115q37-18 62 67t40 42 33-52q23-5 33 47t47 65 46-21 35-49q30-14 45 24t48 29 43-78 45-89q33-10 51 97t43 43 40-76q37-24 56 71t48 43 67-102q42-11 57 71t35 43v178H0Z" fill="#b8c5b6"/>
+<path d="M0 431q22-78 56-105t55 53 57-39 34-144q33-38 58 65t49 118 55-18 44-100q34-65 58-31t44 132 49 30 45-55q30-39 56 12t42-65 45-74q40-16 59 88t42 31 47-15 54 105 52-84 60-69q37 0 69 152v182H0Z" fill="#829f8e"/>
+<path d="M0 493q36-25 66-129t51-54 43 134 55 39 40-26 52 26 62-6 60-40 55 31 58-11 61 22 61-60 53 46 76-38 57 27 52-68 69 30 69 55 90-25v259H0Z" fill="#527e68"/>
+<path d="M0 494q150 27 318-5t230 15 240-3 312 14v185H0Z" fill="#a2ac76"/>
+<path d="M515 494q97 22 226 24t-6 56q-180 44-102 126H274q-56-87 169-133t72-73Z" fill="url(#water)"/>
+<path d="M516 497q-43 40-155 62M733 564q-117 26-119 95" fill="none" stroke="#edf0d3" stroke-width="3" opacity=".7"/>
+<g fill="#d2bc73"><path d="m61 546 248-22 33 39-284 38Z"/><path d="m51 621 299-47 19 58L6 690Z"/><path d="m844 535 195-3 61 39-286 5Z"/><path d="m800 609 300-14v72l-341-1Z"/></g>
+<g stroke="#6e8a60" fill="none" stroke-width="3" opacity=".6"><path d="m60 566 251-26M50 587l273-30M10 662l345-51M829 562l271-4M778 642l322-13"/></g>
+<g transform="translate(759 430)"><path d="M0 21h75v58H0z" fill="#ede7ce"/><path d="m-12 22 46-32 56 32Z" fill="#344d43"/><path d="M72 40h66v39H72z" fill="#e7ddbd"/><path d="m65 40 37-25 46 25Z" fill="#435b4c"/><path d="M16 49h15v30H16zM46 37h12v15H46zM87 54h12v13H87zM116 53h12v26h-12z" fill="#7c8068"/><path d="m-9 24 44-30 51 29M69 42l34-23 41 23" stroke="#c3c0a5" fill="none" stroke-width="2"/></g>
+<g transform="translate(262 440) scale(.8)"><path d="M0 21h75v58H0z" fill="#ede7ce"/><path d="m-12 22 46-32 56 32Z" fill="#344d43"/><path d="M16 49h15v30H16zM46 37h12v15H46z" fill="#6f7662"/></g>
+<g stroke="#5b6042" fill="none"><path d="M1110-8Q956 20 939 105T815 213M1050 21q-28 97 48 166M950 78q-65 17-93 78" stroke-width="12"/><path d="M939 103 885 54M904 153l42 45M996 53l28 69M839 203l-16-70M1077 141l-35 39" stroke-width="5"/></g>
+<g color="#dbad4f"><use href="#leaf" transform="translate(892 31) rotate(-35) scale(1.15)"/><use href="#leaf" transform="translate(838 114) rotate(20) scale(.95)"/><use href="#leaf" transform="translate(948 204) rotate(170) scale(.9)"/><use href="#leaf" transform="translate(1038 135) rotate(140) scale(1.25)"/></g>
+<g color="#e8bf62"><use href="#leaf" transform="translate(1002 64) rotate(12) scale(.95)"/><use href="#leaf" transform="translate(1102 183) rotate(35)"/><use href="#leaf" transform="translate(798 194) rotate(-40) scale(.75)"/></g>
+<g color="#d6a049"><use href="#leaf" transform="translate(702 287) rotate(55) scale(.23)"/><use href="#leaf" transform="translate(927 373) rotate(105) scale(.27)"/><use href="#leaf" transform="translate(77 540) rotate(-20) scale(.26)"/></g>
+<path d="M0 700v-28q60-37 116-5t133 33M1100 700v-34q-81-42-153-1t-99 35" fill="#304f3e"/>
+<g transform="translate(510 594) rotate(-8)"><path d="M-28 0h61l-7 5h-46Z" fill="#53684c"/><path d="M0-3v-17m0 5 9 8M0-16l-6 8" stroke="#4d624b" stroke-width="3" stroke-linecap="round"/><circle cy="-23" r="4" fill="#4d624b"/><path d="m-8-6 21 11" stroke="#4d624b" stroke-width="2"/></g>
+<path d="m647 150 7-4 7 4m12 10 5-3 5 3" stroke="#778875" stroke-width="2" fill="none"/>
+</g></svg>
